@@ -46,7 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
             <div>
               <span className="text-lg font-extrabold tracking-tight text-white flex items-center gap-1.5">
-                Quiz<span className="text-indigo-400">Pulse</span>
+                Knowledge<span className="text-indigo-400">Clash</span>
                 <span
                   className={`text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full border ${
                     isTeacher
