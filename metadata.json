@@ -1,0 +1,8 @@
+{
+  "name": "KNOWLEDGE CLASH",
+  "description": "Knowledge Clash is an exciting quiz platform where knowledge meets competition. Challenge yourself, battle friends, test your skills, and climb the leaderboard.\n\nThink Smart. Play Hard. Win Big.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
