@@ -45,7 +45,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <img
   src="/WhatsApp_Image_2026-11-09_at_2.15.36_AM-removebg-preview.png"
   alt="Knowledge Clash"
-  className="w-8 h-8 rounded-lg"
+  className="w-10 h-10 object-contain"
 />
             </div>
             <div>
