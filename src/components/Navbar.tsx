@@ -42,7 +42,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             className="flex items-center gap-2.5 cursor-pointer group shrink-0"
           >
             <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-purple-500 flex items-center justify-center shadow-lg shadow-indigo-500/25 group-hover:scale-105 transition-transform">
-              <Sparkles className="w-5 h-5 text-white" />
+              <img
+  src="/WhatsApp_Image_2026-11-09_at_2.15.36_AM-removebg-preview.png"
+  alt="Knowledge Clash"
+  className="w-8 h-8 rounded-lg"
+/>
             </div>
             <div>
               <span className="text-lg font-extrabold tracking-tight text-white flex items-center gap-1.5">
