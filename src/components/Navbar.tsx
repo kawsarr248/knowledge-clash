@@ -41,7 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => setActiveTab('explore')}
             className="flex items-center gap-2.5 cursor-pointer group shrink-0"
           >
-            <div className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden">
+            <div className="w-16 h-16 rounded-xl flex items-center justify-center overflow-hidden">
               <img
   src="/favicon-96x96[1].png"
   alt="Knowledge Clash"
