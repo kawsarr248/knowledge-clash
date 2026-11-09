@@ -43,7 +43,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <div className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden">
               <img
-  src="/WhatsApp_Image_2026-11-09_at_2.15.36_AM-removebg-preview.png"
+  src="/favicon-96x96.png"
   alt="Knowledge Clash"
   className="w-full h-full object-contain"
 />
