@@ -41,11 +41,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => setActiveTab('explore')}
             className="flex items-center gap-2.5 cursor-pointer group shrink-0"
           >
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-purple-500 flex items-center justify-center shadow-lg shadow-indigo-500/25 group-hover:scale-105 transition-transform">
+            <div className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden">
               <img
   src="/WhatsApp_Image_2026-11-09_at_2.15.36_AM-removebg-preview.png"
   alt="Knowledge Clash"
-  className="w-10 h-10 object-contain"
+  className="w-full h-full object-contain"
 />
             </div>
             <div>
