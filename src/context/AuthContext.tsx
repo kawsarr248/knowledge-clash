@@ -120,7 +120,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const isGuest = !currentUser;
-  const isTeacher = role === 'teacher' || (currentUser?.email?.toLowerCase() === BOOTSTRAPPED_TEACHER_EMAIL.toLowerCase());
+  const isTeacher = role === 'teacher';
   const effectiveUserId = currentUser ? currentUser.uid : `user-${guestName.replace(/\s+/g, '').toLowerCase()}`;
   const effectiveUserName = currentUser ? currentUser.displayName || currentUser.email?.split('@')[0] || 'User' : guestName;
   const effectiveUserPhoto = currentUser?.photoURL || null;
