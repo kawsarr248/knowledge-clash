@@ -143,7 +143,7 @@ export const RoleManagerModal: React.FC<RoleManagerModalProps> = ({
                       {u.role}
                     </span>
 
-                    {user?.email === 'kawsarr026@gmail.com' && (
+                    {user?.email === 'kawsarr248@gmail.com' && (
                       <button
                         onClick={() => handleToggleRole(u.id, u.role)}
                         className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
